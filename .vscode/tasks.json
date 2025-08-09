@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile and Run C++ on Windows 11",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "g++ SORTING.cpp -o SORTING && SORTING < input.txt > output.txt"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
